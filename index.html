@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Nossa Jornada</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#nossa-historia" class="nav-link">
+                            <i class="bi bi-journal me-1"></i>
+                            Sobre nossa História
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#paises" class="nav-link">
+                            <i class="bi bi-airplane me-1"></i>
+                            Locais para onde viajamos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#turistico" class="nav-link">
+                            <i class="bi bi-geo-alt me-1"></i>
+                            O que visitar lá
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="nossa-historia">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/paris.jpg" alt="Foto de Paris">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/sidney.jpg" alt="Foto de Sidney">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/tailandia.jpg" alt="Foto da Tailandia">
+                    </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/gettyimages-120381552-170667a.jpg" class="d-blow w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 my-md-0">
+                            <h2 class="section-title">Nossa <span class="text-colored">Histórias</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas in ad laboriosam sit deleniti tenetur placeat fugit debitis doloremque odio sed exercitationem, quis possimus vitae, molestias provident neque. Repudiandae, odio.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas in ad laboriosam sit deleniti tenetur placeat fugit debitis doloremque odio sed exercitationem, quis possimus vitae, molestias provident neque. Repudiandae, odio.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas in ad laboriosam sit deleniti tenetur placeat fugit debitis doloremque odio sed exercitationem, quis possimus vitae, molestias provident neque. Repudiandae, odio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="paises" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mt-4">
+                    <h2 class="section-title text-center"> Locais <span class="text-colored">Incríveis</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./images/paises/torre.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-airplane"></i>
+                            França
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fugit cumque, vel facilis accusamus doloremque? Facilis quasi sapiente voluptas, provident eaque ipsa magni officia nobis quos libero, aperiam eveniet maiores.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/paises/castelo.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-airplane"></i>    
+                            Tailandia
+                        </h3>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fugit cumque, vel facilis accusamus doloremque? Facilis quasi sapiente voluptas, provident eaque ipsa magni officia nobis quos libero, aperiam eveniet maiores.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/paises/museu.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-airplane"></i>  
+                            Austrália
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fugit cumque, vel facilis accusamus doloremque? Facilis quasi sapiente voluptas, provident eaque ipsa magni officia nobis quos libero, aperiam eveniet maiores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="turistico" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Pontos <span class="text-colored">Turisticos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-turistico">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#europa" class=" fw-bold text-start nav-link text-colored active">França Europa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#asia" class=" fw-bold text-start nav-link text-colored ">Tailândia: Ásia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oceania" class=" fw-bold text-start nav-link text-colored ">Austrália: Oceania</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="europa">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/frança/eiffel.jpg" alt="Imagem da Torre Eiffel">
+                                        <h5 class="text-colored fw-bold mt-2">Torre Eiffel</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/frança/luvre.jpg" alt="Imagem do museu do Luvre">
+                                        <h5 class="text-colored fw-bold mt-2">Luvre</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/frança/arco.jpg" alt="Foto do Arco do Triunfo">
+                                        <h5 class="text-colored fw-bold mt-2">Arco do Triunfo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/frança/senna.avif" alt="Foto do rio Senna">
+                                        <h5 class="text-colored fw-bold mt-2">Rio Senna</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="asia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/tailandia/chiang_mai.jpg" alt="imagem do Chiang Mai">
+                                        <h5 class="text-colored fw-bold mt-2">Chiang Mai</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/tailandia/phuket.jpg" alt="Imagem de uma praia com uma pedra">
+                                        <h5 class="text-colored fw-bold mt-2">Phuket</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="oceania">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/australia/sydney-harbour-bridge.jpeg" alt="Foto de uma ponte">
+                                        <h5 class="text-colored fw-bold mt-2">Ponte da Baía de Sidney</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/australia/sidney_open_house.jpg" alt="Foto do Sydney Open House">
+                                        <h5 class="text-colored fw-bold mt-2">Sydney Open House</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block img-turistico w-100" src="./images/turisticos/australia/museu_maritimo.jpg" alt="CFoto de um museu maritimo">
+                                        <h5 class="text-colored fw-bold mt-2">Musey Marítimo Nascional</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua Mensagem</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3> 
+                            <p>
+                                Rua Av. Salgado Filho, n° 2948, Centro - Guarulhos - SP
+                            </p>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
